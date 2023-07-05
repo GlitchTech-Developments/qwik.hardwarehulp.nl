@@ -4,14 +4,13 @@ module.exports = {
 		tailwindcss: {},
 		cssnano: {},
 		"postcss-font-magician": {
+			display: "swap",
 			variants: {
 				Raleway: {
-					300: [],
-					400: [],
-					700: [],
+					300: ["woff2"],
 				},
 			},
-			foundries: ["google"],
+			hosted: ["./src/fonts"],
 		},
 	},
 };
