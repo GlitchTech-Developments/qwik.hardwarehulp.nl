@@ -7,10 +7,10 @@ module.exports = {
 			display: "swap",
 			variants: {
 				Raleway: {
-					300: ["woff2"],
+					300: ["eot, woff2"],
 				},
 			},
-			hosted: ["/fonts"],
+			foundries: ["google"],
 		},
 	},
 };
