@@ -10,7 +10,7 @@ module.exports = {
 					300: ["woff2"],
 				},
 			},
-			hosted: ["./src/fonts"],
+			hosted: ["/fonts"],
 		},
 	},
 };
