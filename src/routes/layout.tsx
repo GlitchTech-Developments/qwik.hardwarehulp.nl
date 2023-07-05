@@ -19,7 +19,7 @@ export default component$(() => {
 		<>
 			<Header />
 			<Slot />
-			<Footer />;
+			<Footer />
 		</>
 	);
 });

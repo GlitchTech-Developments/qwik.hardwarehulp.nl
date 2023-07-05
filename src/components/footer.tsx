@@ -1,4 +1,5 @@
-﻿import {
+﻿import { Link } from "@builder.io/qwik-city";
+import {
 	BsEnvelope,
 	BsFacebook,
 	BsInstagram,
@@ -136,12 +137,11 @@ const Footer = () => {
 						</section>
 					</div>
 					<div class="copyright no-select">
-						<span style={{ fontSize: 15 }}>
-							<a href="/">Hardwarehulp</a>
+						<span style={{ fontSize: "13px" }}>
+							<Link href="/">Hardwarehulp</Link>
 							{" 2021-" + new Date().getFullYear()} | IT hulp aan
 							huis
 						</span>
-						<br />
 					</div>
 				</div>
 			</footer>

@@ -1,5 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
+import MetaHead from "./meta-head";
+import PrefetchHead from "./prefetch-head";
 
 /**
  * The RouterHead component is placed inside of the document `<head>` element.
@@ -17,7 +19,14 @@ export const RouterHead = component$(() => {
 				name="viewport"
 				content="width=device-width, initial-scale=1.0"
 			/>
-			<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+			<link
+				rel="icon"
+				type="image/svg+xml"
+				href="/favicons/favicon.ico"
+			/>
+
+			<MetaHead />
+			<PrefetchHead />
 
 			{head.meta.map((m) => (
 				<meta key={m.key} {...m} />
