@@ -1,7 +1,7 @@
 ﻿import { Link } from "@builder.io/qwik-city";
 import { Image } from "@unpic/qwik";
 
-import Logo from "../img/logo.webp";
+const Logo = "/img/logo.webp";
 
 const Header = () => {
 	return (
