@@ -102,7 +102,7 @@ const Footer = () => {
 								</a>
 							</div>
 						</section>
-						<section class="no-select">
+						<section class="no-select mt-4">
 							<h4>Volg mij!</h4>
 							<ul class="plain no-select">
 								<li>
