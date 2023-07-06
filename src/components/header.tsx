@@ -13,9 +13,13 @@ const Header = () => {
 					alt="Logo Hardwarehulp"
 					height={70}
 					width={70}
+					priority
 				/>
 			</a>
-			<nav class="no-select">
+			<nav
+				class="no-select font-semibold"
+				style={{ color: "rgba(255,255,255, 0.85)" }}
+			>
 				<Link class="nav-link" rel="canonical" href="/">
 					Home
 				</Link>

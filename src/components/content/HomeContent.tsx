@@ -31,7 +31,7 @@ const HomeContent = () => {
 										/>
 										<h3>Computer op maat</h3>
 									</span>
-									<p>
+									<p class="text-gray-700">
 										Computer speciaal op maat voor uw
 										gebruik. Bij u thuis in elkaar gezet,
 										geïnstalleerd.
@@ -52,7 +52,7 @@ const HomeContent = () => {
 										/>
 										<h3>Ondersteuning</h3>
 									</span>
-									<p>
+									<p class="text-gray-700">
 										Heeft u problemen met bepaalde apparaten
 										aan de praat krijgen? dan kan ik u hier
 										ook mee helpen.
@@ -73,7 +73,7 @@ const HomeContent = () => {
 										/>
 										<h3>Aankoop advies</h3>
 									</span>
-									<p>
+									<p class="text-gray-700">
 										Advisering van de aankoop van
 										elektronica zoals computers, laptops,
 										smartphones etc.

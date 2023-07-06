@@ -84,9 +84,8 @@ const Footer = () => {
 									<br />
 									IBAN: NL15 ABNA 0884 2883 74
 									<br />
-									Tel:
+									Tel:{" "}
 									<a href="https://wa.me/31642981933">
-										{" "}
 										+31 6 42 98 1933
 									</a>
 								</p>
@@ -110,17 +109,55 @@ const Footer = () => {
 									<a
 										href="https://www.instagram.com/hardwarehulp/"
 										class="flex items-center"
+										onMouseEnter$={() => {
+											const Icon =
+												document.getElementById(
+													"ig-icon"
+												);
+											Icon?.classList.add("fill-brand");
+										}}
+										onMouseLeave$={() => {
+											const Icon =
+												document.getElementById(
+													"ig-icon"
+												);
+											Icon?.classList.remove(
+												"fill-brand"
+											);
+										}}
 									>
-										<BsInstagram class="icon mb-1" />
-										Instagram
+										<BsInstagram
+											id="ig-icon"
+											class="icon mb-1"
+										/>
+										<span>Instagram</span>
 									</a>
 								</li>
 								<li>
 									<a
 										href="https://www.facebook.com/hardwarehulp"
 										class="flex items-center"
+										onMouseEnter$={() => {
+											const Icon =
+												document.getElementById(
+													"fb-icon"
+												);
+											Icon?.classList.add("fill-brand");
+										}}
+										onMouseLeave$={() => {
+											const Icon =
+												document.getElementById(
+													"fb-icon"
+												);
+											Icon?.classList.remove(
+												"fill-brand"
+											);
+										}}
 									>
-										<BsFacebook class="icon mb-1" />
+										<BsFacebook
+											id="fb-icon"
+											class="icon mb-1"
+										/>
 										Facebook
 									</a>
 								</li>
@@ -128,8 +165,27 @@ const Footer = () => {
 									<a
 										href="https://www.linkedin.com/company/hardwarehulp"
 										class="flex items-center"
+										onMouseEnter$={() => {
+											const Icon =
+												document.getElementById(
+													"li-icon"
+												);
+											Icon?.classList.add("fill-brand");
+										}}
+										onMouseLeave$={() => {
+											const Icon =
+												document.getElementById(
+													"li-icon"
+												);
+											Icon?.classList.remove(
+												"fill-brand"
+											);
+										}}
 									>
-										<BsLinkedin class="icon mb-1" />
+										<BsLinkedin
+											id="li-icon"
+											class="icon mb-1"
+										/>
 										Linkedin
 									</a>
 								</li>
