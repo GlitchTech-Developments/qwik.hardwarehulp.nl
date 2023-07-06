@@ -7,15 +7,6 @@ import {
 	BsWhatsapp,
 } from "@qwikest/icons/bootstrap";
 
-// import {
-// 	faFacebook,
-// 	faInstagram,
-// 	faLinkedin,
-// 	faWhatsapp,
-// } from "@fortawesome/free-brands-svg-icons";
-// import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 const Footer = () => {
 	return (
 		<>
@@ -102,7 +93,7 @@ const Footer = () => {
 								</a>
 							</div>
 						</section>
-						<section class="no-select mt-4">
+						<section class="no-select mt-6">
 							<h4>Volg mij!</h4>
 							<ul class="plain no-select">
 								<li>
@@ -184,7 +175,7 @@ const Footer = () => {
 									>
 										<BsLinkedin
 											id="li-icon"
-											class="icon mb-1"
+											class="icon mb-2"
 										/>
 										Linkedin
 									</a>
