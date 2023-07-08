@@ -50,12 +50,12 @@ const ToolsContent = () => {
 							}}
 						>
 							<a
-								href="https://freetools.seobility.net/en/seocheck/hardwarehulp.nl"
+								href="https://freetools.seobility.net/en/seocheck/qwik.hardwarehulp.nl"
 								target="_blank"
 								rel="noreferrer"
 							>
 								<Image
-									src="https://freetools.seobility.net/widget/widget.png?url=hardwarehulp.nl"
+									src="https://freetools.seobility.net/widget/widget.png?url=qwik.hardwarehulp.nl"
 									alt="Seobility Score of hardwarehulp.nl"
 									height={80}
 									width={80}
